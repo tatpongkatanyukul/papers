@@ -18,7 +18,7 @@ src: https://deepai.org/machine-learning-glossary-and-terms/softmax-layer
 
 ## [Bridle 1989](https://github.com/tatpongkatanyukul/papers/blob/main/RecogAwareness/NIPS-1989-training-stochastic-model-recognition-algorithms-as-networks-can-lead-to-maximum-mutual-information-estimation-of-parameters-Paper.pdf)
 
-## Luce 1959
+## [Luce 1959](https://github.com/tatpongkatanyukul/papers/blob/main/RecogAwareness/130718_LuceChoiceBehavior.pdf)
 Page 36
 
 P(i; T) = v(i) / sum_{j in T} v(j)
