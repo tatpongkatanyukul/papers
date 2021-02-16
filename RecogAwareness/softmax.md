@@ -13,3 +13,13 @@ Here's what I have found on the softmax history.
 > n 1959 Robert Duncan Luce proposed the use of the softmax function for reinforcement learning in his book Individual Choice Behavior: A Theoretical Analysis. Finally in 1989 John S. Bridle suggested that the argmax in feedforward neural networks should be replaced by softmax because it “preserves the rank order of its input values, and is a differentiable generalisation of the ‘winner-take-all’ operation of picking the maximum value”. In recent years, as neural networks have become widely used, the softmax has become well known thanks to these properties.
 
 src: https://deepai.org/machine-learning-glossary-and-terms/softmax-layer
+
+-------------
+
+## Bridle 1989
+
+## Luce 1959
+Page 36
+
+P(i; T) = v(i) / sum_{j in T} v(j)
+
