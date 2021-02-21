@@ -22,7 +22,7 @@ The list is selected from what cited Bridle 1989 (through Google Scholar, search
 
    * [First round list](https://github.com/tatpongkatanyukul/papers/blob/main/RecogAwareness/softdig1a.md)
    * [Second round list](https://github.com/tatpongkatanyukul/papers/blob/main/RecogAwareness/softdig2a.md)
-   * Final list
+   * [Final list](https://github.com/tatpongkatanyukul/papers/blob/main/RecogAwareness/rsc/softmaxdig3a.md)
 
 
 ## [Bridle 1989](https://github.com/tatpongkatanyukul/papers/blob/main/RecogAwareness/NIPS-1989-training-stochastic-model-recognition-algorithms-as-networks-can-lead-to-maximum-mutual-information-estimation-of-parameters-Paper.pdf)
