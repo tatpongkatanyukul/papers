@@ -21,7 +21,7 @@ src: https://deepai.org/machine-learning-glossary-and-terms/softmax-layer
 The list is selected from what cited Bridle 1989 (through Google Scholar, searched on Feb 16th, 2021)
 
    * [First round list](https://github.com/tatpongkatanyukul/papers/blob/main/RecogAwareness/softdig1a.md)
-   * [Second round list]
+   * [Second round list](https://github.com/tatpongkatanyukul/papers/blob/main/RecogAwareness/softdig2a.md)
    * Final list
 
 
