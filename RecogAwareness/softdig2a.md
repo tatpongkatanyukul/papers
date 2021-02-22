@@ -10,3 +10,8 @@
   * Epasto et al., ArXiv 2020
   * Kim et al., IEEE International Symposium on the Physical and Failure Analysis of Integrated Circuits 2020
   * Gold and Rangarajan, (Softassign) 1996
+
+
+## 
+
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
