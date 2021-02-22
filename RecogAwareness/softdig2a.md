@@ -15,3 +15,5 @@
 ## 
 
 <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+
+<img src="https://render.githubusercontent.com/render/math?math=sin(x)^2 %2BH cos(x)^2 = 1">
