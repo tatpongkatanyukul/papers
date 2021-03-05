@@ -1,2 +1,2 @@
-# Code from AIPR 2019
+# Code from AIPR 2019 paper
 
