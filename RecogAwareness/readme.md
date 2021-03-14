@@ -49,4 +49,8 @@ Mutual Information (MI) of the joint events:
 
 ![I(X,Y)=\sum_{(x,y)} P(X=x,Y=y)\log \frac{P(X=x,Y=y)}{P(X=x)P(Y=y)}](https://latex.codecogs.com/svg.latex?I(X,Y)=\sum_{(x,y)}P(X=x,Y=y)\log\frac{P(X=x,Y=y)}{P(X=x)P(Y=y)})
 
+> ... is equvalent, to minimise minus its log:
+
+> ![J=-\sum_{t=1}^T \log Q_{c_t}(x_t)](https://latex.codecogs.com/svg.latex?J=-\sum_{t=1}^T\logQ_{c_t}(x_t))
+
 ## 
