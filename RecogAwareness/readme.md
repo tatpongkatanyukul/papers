@@ -37,7 +37,7 @@ That is,
 
 and
 
-![E[y_k|x] = P(C=k|X=x)](https://latex.codecogs.com/svg.latex?E[y_kx]=P(C=kX=x))
+![E[y_k|x] = P(C=k|X=x)](https://latex.codecogs.com/svg.latex?E[y_k|x]=P(C=k|X=x))
 
 ![E[y_k|x] = P(C=k|X=x)](https://latex.codecogs.com/svg.latex?E[y_k|x]=P(C=k|X=x))
 
