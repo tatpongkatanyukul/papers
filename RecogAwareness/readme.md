@@ -69,7 +69,7 @@ Given **logit** ***h<sub>c</sub><sup>T</sup> w<sub>x</sub>*** (i.e., "penultimat
 
 > the model distribution is usually written as 
 
-> ![P_{\theta}(x|c)](https://latex.codecogs.com/svg.latex?P_{\theta}(x|c))
+> ![P_{\theta}(x|c)](https://latex.codecogs.com/svg.latex?P_\theta(x|c))
 
 
 
