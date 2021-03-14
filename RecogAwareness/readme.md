@@ -60,4 +60,16 @@ That is "cross entropy loss":
 where ***c<sub>n</sub>*** is a correct class of the ***n<sup>th</sup>*** sample.
 
 
-## 
+## Yang et al. ICLR 2018
+
+  * show that "the expressiveness of Softmax-based models (including the majority of neural language models) is limited by a Softmax bottleneck."
+  * propose Mixture of Softmax (MoS) to mitigate the issue
+
+Given **logit** ***h<sub>c</sub><sup>T</sup> w<sub>x</sub>*** (i.e., "penultimate" a = h<sub>c</sub><sup>T</sup> w<sub>x</sub>),
+
+> the model distribution is usually written as 
+
+> ![P_{\theta}(x|c)](https://latex.codecogs.com/svg.latex?P_{\theta}(x|c))
+
+
+
