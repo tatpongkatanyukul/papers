@@ -21,7 +21,10 @@ That is,
 
 ![L(\theta) = \sum_{n=1}^N \sum_{k=1}^K (\hat{y}(x_n, \theta) - y_{n,k})^2](https://latex.codecogs.com/svg.latex?L(\theta)=\sum_{n=1}^N\sum_{k=1}^K(\hat{y}_k(x_n,\theta)-y_{n,k})^2)
 
-> "It is well known that the value of ***F(x)*** which minimises the expected value of ***(F(x) - y)<sup>2</sup>*** is the expected value of y given x. The expected value of &delta<sub>j,c<sub>t</sub></sub> is ***P(C=j|X=x<sub>t</sub>)***, the probability that the class associated with ***x<sub>t</sub>*** is the ***j<sup>th</sup>*** class."
+> "It is well known that the value of ***F(x)*** which minimises the expected value of ***(F(x) - y)<sup>2</sup>*** is the expected value of ***y*** given ***x***. The expected value of ***δ<sub>j,c<sub>t</sub></sub>*** is ***P(C=j|X=x<sub>t</sub>)***, the probability that the class associated with ***x<sub>t</sub>*** is the ***j<sup>th</sup>*** class."
 
+That is,
+
+![argmin_{F(x)} E[(F(x) - y)^2] = E[y|x]](https://latex.codecogs.com/svg.latex?argmin_{F(x)}E[(F(x)-y)^2]=E[y|x])
 
 ## 
