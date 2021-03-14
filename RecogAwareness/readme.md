@@ -42,6 +42,7 @@ and ***E[y<sub>k</sub>|x] = P(C=k|X=x)***.
 > Maximum likelihood (ML) training is appropriate if we are choosing from a family of pdfs which includes the correct one. In most real-life applications of pattern classification we do not have knowledge of the form of the data distributions, although we may have some useful ideas. In that case ML may be a rather bad approach to pdf estimation for the _purpose of pattern classification_, because what matters is the _relative densities_.
 
 > An alternative is to optimise a measure of success in pattern classification, and this can make a big difference to performance, particularly when the assumptions about the form of the class pdfs is badly wrong.
+
 > ... For discrimination training of sets of stochastic models, Bahl et al. suggest maximising the Mutual Information, I, between the training observations and the choice of the corresponding correct class.
 
 Mutual Information (MI) of the joint events:
