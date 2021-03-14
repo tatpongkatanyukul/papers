@@ -51,6 +51,6 @@ Mutual Information (MI) of the joint events:
 
 > ... is equvalent, to minimise minus its log:
 
-> ![J=-\sum_{t=1}^T \log Q_{c_t}(x_t)](https://latex.codecogs.com/svg.latex?J=-\sum_{t=1}^T\logQ_{c_t}(x_t))
+> ![J=-\sum_{t=1}^T \log Q_{c_t}(x_t)](https://latex.codecogs.com/svg.latex?J=-\sum_{t=1}^T\log(Q_{c_t}(x_t)))
 
 ## 
