@@ -73,13 +73,18 @@ Given **logit** ***h<sub>c</sub><sup>T</sup> w<sub>x</sub>*** (i.e., "penultimat
 
 > where ***h<sub>c</sub>*** is a function of _c_, and ***w<sub>x</sub>*** is a function of _x_.
 
+
+Given that _N_ is a number of the target classes and
+_M_ is a number of samples,
+
 > ***H<sub>θ</sub>*** = [h<sub>c<sub>1</sub></sub><sup>T</sup>; h<sub>c<sub>2</sub></sub><sup>T</sup>; ...; h<sub>c<sub>N</sub></sub><sup>T</sup>;]
 
 > ***W<sub>θ</sub>*** = [w<sub>x<sub>1</sub></sub><sup>T</sup>; w<sub>x<sub>1</sub></sub><sup>T</sup>; ...; w<sub>x<sub>M</sub></sub><sup>T</sup>;] 
 
-> ***A*** = [log P<sup>*</sup>(x<sub>1</sub>|c<sub>1</sub>, log P<sup>*</sup>(x<sub>2</sub>|c<sub>1</sub>, ..., log P<sup>*</sup>(x<sub>M</sub>|c<sub>1</sub>; ... log P<sup>*</sup>(x<sub>M</sub>|c<sub>N</sub>]
+> ***A*** = [log P<sup>*</sup>(x<sub>1</sub>|c<sub>1</sub>), log P<sup>*</sup>(x<sub>2</sub>|c<sub>1</sub>), ..., log P<sup>*</sup>(x<sub>M</sub>|c<sub>1</sub>); ... log P<sup>*</sup>(x<sub>M</sub>|c<sub>N</sub>)]
 
-_N_ is a number of the target classes;
-_M_ is a number of samples.
+> where ***H<sub>θ</sub>*** in R<sup>N x d</sup>, ***W<sub>θ</sub>*** in R<sup>M x d</sup>, ...
+
+_d_ is a number of hidden dimension of the last feature vector.
 
 
