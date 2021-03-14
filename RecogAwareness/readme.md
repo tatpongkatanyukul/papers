@@ -55,7 +55,7 @@ Mutual Information (MI) of the joint events:
 
 That is "cross entropy loss":
 
-![J=-\sum_{n=1}^N \log \hat{y}_{c_n}(x_n)](https://latex.codecogs.com/svg.latex?J=-\sum_{n=1}^N\log(\hat{y}_{c_n}(x_n)))
+![J=-\sum_{n=1}^N \log \hat{y}_{c_n}(x_n)](https://latex.codecogs.com/svg.latex?J=-\sum_{n=1}^N\log(y_{c_n}(x_n)))
 
 where ***c<sub>n</sub>*** is a correct class of the ***n<sup>th</sup>*** sample.
 
