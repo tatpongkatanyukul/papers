@@ -88,7 +88,7 @@ _M_ is a number of samples,
 
 _d_ is a number of hidden dimensions of the last feature vector.
 
-Yang et al. then use linear algebra to deduce that if ***d < rank(A) - 1*** (see Corollary 1), then there is a context _c_ in language such that ***P<sup>θ</sup>(X|c) ≠ P<sup>*</sup>(X|c)***.
+Yang et al. then use linear algebra to deduce that if ***d < rank(A) - 1*** (see Yang et al's Corollary 1), then there is a context _c_ in language such that ***P<sub>θ</sub>(X|c) ≠ P<sup>*</sup> (X|c)***.
 
 That is, when a number of dimensions of the last feature vector is less than a rank of output matrix, the softmax output is less effective as an approximator of the class conditional probability.
 
