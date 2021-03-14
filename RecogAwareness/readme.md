@@ -16,8 +16,12 @@ Keys
   * show relationship between the classification network and maximum mutual information
 
 > ![Q_j(x) = e^{V_j(x)}/ \sum_k e^{V_k(x)}](https://latex.codecogs.com/svg.latex?Q_j(x)=e^{V_j(x)}/\sum_ke^{V_k(x)})
-(Softmax)
 
+That is a softmax,
+
+> ![\hat{y}_j(x) = e^{a_j(x)}/ \sum_k e^{a_k(x)}](https://latex.codecogs.com/svg.latex?\hat{y}_j(x)=e^{a_j(x)}/\sum_ke^{a_k(x)})
+
+> A common procedure is to minimise ***E(θ)***, the sum of the squares of the differences between the network outputs and true class indicators, or targets:
 > ![E(\theta) = \sum_{t=1}^T \sum_{j=1}^N (Q_j(x_t, \theta) - \delta_{j, c_t})^2](https://latex.codecogs.com/svg.latex?E(\theta)=\sum_{t=1}^T\sum_{j=1}^N(Q_j(x_t,\theta)-\delta_{j,c_t})^2)  
 > where ![\delta_{j, c} =1](https://latex.codecogs.com/svg.latex?\delta_{j,c}=1) if j = c, otherwise 0.
 
