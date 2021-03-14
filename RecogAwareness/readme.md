@@ -15,7 +15,7 @@ Keys
   * propose softmax and analyze that softmax output is approximating conditional probability
   * show relationship between the classification network and maximum mutual information
 
-> ![Q_j(x) = e^{V_j(x)}/ \sum_k e^{V_k(x)}](https://latex.codecogs.com/svg.latex?Q_j(x)=e^{V_j(x)}/\sum_k e^{V_k(x)})
+> ![Q_j(x) = e^{V_j(x)}/ \sum_k e^{V_k(x)}](https://latex.codecogs.com/svg.latex?Q_j(x)=e^{V_j(x)}/\sum_ke^{V_k(x)})
 (Softmax)
 
 > ![E(\theta) = \sum_{t=1}^T \sum_{j=1}^N (Q_j(x_t, \theta) - \delta_{j, c_t})^2](https://latex.codecogs.com/svg.latex?E(\theta)=\sum_{t=1}^T\sum_{j=1}^N(Q_j(x_t,\theta)-\delta_{j,c_t})^2)  
