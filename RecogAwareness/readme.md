@@ -70,9 +70,16 @@ Given **logit** ***h<sub>c</sub><sup>T</sup> w<sub>x</sub>*** (i.e., "penultimat
 > the model distribution is usually written as 
 
 > ***P<sub>θ</sub>(x|c) = exp h<sub>c</sub><sup>T</sup> w<sub>x</sub> / Σ<sub>x'</sub> exp h<sub>c</sub><sup>T</sup> w<sub>x</sub>***
+
 > where ***h<sub>c</sub>*** is a function of _c_, and ***w<sub>x</sub>*** is a function of _x_.
 
+> ***H<sub>θ</sub>*** = [h<sub>c<sub>1</sub></sub><sup>T</sup>; h<sub>c<sub>2</sub></sub><sup>T</sup>; ...; h<sub>c<sub>N</sub></sub><sup>T</sup>;]
 
+> ***W<sub>θ</sub>*** = [w<sub>x<sub>1</sub></sub><sup>T</sup>; w<sub>x<sub>1</sub></sub><sup>T</sup>; ...; w<sub>x<sub>M</sub></sub><sup>T</sup>;] 
 
+> ***A*** = [log P<sup>*</sup>(x<sub>1</sub>|c<sub>1</sub>, log P<sup>*</sup>(x<sub>2</sub>|c<sub>1</sub>, ..., log P<sup>*</sup>(x<sub>M</sub>|c<sub>1</sub>; ... log P<sup>*</sup>(x<sub>M</sub>|c<sub>N</sub>]
+
+_N_ is a number of the target classes;
+_M_ is a number of samples.
 
 
