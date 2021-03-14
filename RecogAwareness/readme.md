@@ -99,3 +99,22 @@ Yang et al. propose mixture of softmaxes:
 > In other words, MoS computes _M_ Softmax distributions and uses a weighted average of them as the next-token probability distribution.
 
 Parameters _π<sub>m</sub>(x)_ can be learned.
+
+## Kamai et al. NIPS 2018
+
+Kamai et al. propose sigsoftmax as a mitigation to softmax bottleneck issue. They claim and show that gradient calculation of sigsoftmax is numerically stable.
+
+Kamai et al discuss desirable properties of the classification output function
+  * Non-negative
+  * Monotonically increasing
+  * Numerically stable
+  * Nonlinearity of log(y(x))
+<BREAK HERE>
+
+## Yolov3 
+
+use multiple binary outputs, allowing multi-aspect or hierarchical classification
+
+## Facenet
+
+separate feature vectors from the final classification
