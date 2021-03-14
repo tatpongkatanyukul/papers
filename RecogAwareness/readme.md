@@ -13,6 +13,10 @@ Keys
 ## Bridle NIPS 1990
 
   * propose softmax and analyze that softmax output is approximating conditional probability
+  * show relationship between the classification network and maximum mutual information
+
+> ![Q_j(x) = e^{V_j(x)}/ \sum_k e^{V_k(x)}](https://latex.codecogs.com/svg.latex?Q_j(x)=e^{V_j(x)}/\sum_k e^{V_k(x)})
+(Softmax)
 
 > ![E(\theta) = \sum_{t=1}^T \sum_{j=1}^N (Q_j(x_t, \theta) - \delta_{j, c_t})^2](https://latex.codecogs.com/svg.latex?E(\theta)=\sum_{t=1}^T\sum_{j=1}^N(Q_j(x_t,\theta)-\delta_{j,c_t})^2)  
 > where ![\delta_{j, c} =1](https://latex.codecogs.com/svg.latex?\delta_{j,c}=1) if j = c, otherwise 0.
@@ -26,5 +30,11 @@ That is,
 That is,
 
 ![argmin_{F(x)} E[(F(x) - y)^2] = E[y|x]](https://latex.codecogs.com/svg.latex?argmin_{F(x)}E[(F(x)-y)^2]=E[y|x])
+
+and
+
+![E[y_k|x] = P(C=k|X=x)](https://latex.codecogs.com/svg.latex?E[y_k|x]=P(C=k|X=x))
+
+
 
 ## 
