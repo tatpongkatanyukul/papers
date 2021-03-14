@@ -94,6 +94,7 @@ That is, when a number of dimensions of the last feature vector is less than a r
 
 Yang et al. propose mixture of softmaxes:
 
+![J=-\sum_{n=1}^N \log \hat{y}_{c_n}(x_n)](https://latex.codecogs.com/svg.latex?P_\theta(x|c))
 
 
 
