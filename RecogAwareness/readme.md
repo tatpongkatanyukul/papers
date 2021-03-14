@@ -94,9 +94,7 @@ That is, when a number of dimensions of the last feature vector is less than a r
 
 Yang et al. propose mixture of softmaxes:
 
-![\hat{y}_k(x)=\sum_{m=1}^M\pi_m\frac{\exp(a_k(x))}{\sum_{i=1}^K\exp(a_i(x))};s.t.\sum_{m=1}^M\pi_m=1](https://latex.codecogs.com/svg.latex?\hat{y}_k(x)=\sum_{m=1}^M\pi_m(x)\frac{\exp(a_k(x))}{\sum_{i=1}^K\exp(a_i(x))};s.t.\sum_{m=1}^M\pi_m(x)=1)
-
 ![\hat{y}_k(x)=\sum_{m=1}^M\pi_m\frac{\exp(a_k(x))}{\sum_{i=1}^K\exp(a_i(x))};s.t.\sum_{m=1}^M\pi_m=1](https://latex.codecogs.com/svg.latex?\hat{y}_k(x)=\sum_{m=1}^M\pi_m(x)\frac{\exp(a_k^{(m)}(x))}{\sum_{i=1}^K\exp(a_i^{(m)}(x))};s.t.\sum_{m=1}^M\pi_m(x)=1)
 
-
+> In other words, MoS computes _M_ Softmax distributions and uses a weighted average of them as the next-token probability distribution.
 
