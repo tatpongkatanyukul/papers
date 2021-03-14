@@ -69,7 +69,10 @@ Given **logit** ***h<sub>c</sub><sup>T</sup> w<sub>x</sub>*** (i.e., "penultimat
 
 > the model distribution is usually written as 
 
-> ![P_{\theta}(x|c)](https://latex.codecogs.com/svg.latex?P_\theta(x|c))
+> ***P<sub>θ</sub>(x|c) = exp h<sub>c</sub><sup>T</sup> w<sub>x</sub> / Σ<sub>x'</sub> exp h<sub>c</sub><sup>T</sup> w<sub>x</sub>***
+> where ***h<sub>c</sub>*** is a function of _c_, and ***w<sub>x</sub>*** is a function of _x_.
+
+
 
 
 
