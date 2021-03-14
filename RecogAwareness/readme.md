@@ -17,8 +17,11 @@ Keys
 > ![E(\theta) = \sum_{t=1}^T \sum_{j=1}^N (Q_j(x_t, \theta) - \delta_{j, c_t})^2](https://latex.codecogs.com/svg.latex?E(\theta)=\sum_{t=1}^T\sum_{j=1}^N(Q_j(x_t,\theta)-\delta_{j,c_t})^2)  
 > where ![\delta_{j, c} =1](https://latex.codecogs.com/svg.latex?\delta_{j,c}=1) if j = c, otherwise 0.
 
-That is, ![L(\theta) = \sum_{n=1}^N \sum_{k=1}^K (\hat{y}(x_n, \theta) - y_{n,k})^2](https://latex.codecogs.com/svg.latex?L(\theta)=\sum_{n=1}^N\sum_{k=1}^K(\hat{y}(x_n,\theta)-y_{n,k})^2)
+That is, 
 
+![L(\theta) = \sum_{n=1}^N \sum_{k=1}^K (\hat{y}(x_n, \theta) - y_{n,k})^2](https://latex.codecogs.com/svg.latex?L(\theta)=\sum_{n=1}^N\sum_{k=1}^K(\hat{y}_k(x_n,\theta)-y_{n,k})^2)
+
+> "It is well known that the value of ***F(x)*** which minimises the expected value of ***(F(x) - y)<sup>2</sup>*** is the expected value of y given x. The expected value of &delta<sub>j,c<sub>t</sub></sub> is ***P(C=j|X=x<sub>t</sub>)***, the probability that the class associated with ***x<sub>t</sub>*** is the ***j<sup>th</sup>*** class."
 
 
 ## 
