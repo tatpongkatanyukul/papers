@@ -98,3 +98,4 @@ Yang et al. propose mixture of softmaxes:
 
 > In other words, MoS computes _M_ Softmax distributions and uses a weighted average of them as the next-token probability distribution.
 
+Parameters _π<sub>m</sub>(x)_ can be learned.
