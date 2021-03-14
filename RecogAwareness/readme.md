@@ -73,6 +73,7 @@ Given **logit** ***h<sub>c</sub><sup>T</sup> w<sub>x</sub>*** (i.e., "penultimat
 
 > where ***h<sub>c</sub>*** is a function of _c_, and ***w<sub>x</sub>*** is a function of _x_.
 
+Yang et al. work on NLP and context _c_ plays an input role, while a word _x_ plays an output.
 
 Given that _N_ is a number of the target classes and
 _M_ is a number of samples,
@@ -85,6 +86,16 @@ _M_ is a number of samples,
 
 > where ***H<sub>θ</sub>*** in R<sup>N x d</sup>, ***W<sub>θ</sub>*** in R<sup>M x d</sup>, ...
 
-_d_ is a number of hidden dimension of the last feature vector.
+_d_ is a number of hidden dimensions of the last feature vector.
+
+Yang et al. then use linear algebra to deduce that if ***d < rank(A) - 1*** (see Corollary 1), then there is a context _c_ in language such that ***P<sup>θ</sup>(X|c) ≠ P<sup>*</sup>(X|c)***.
+
+That is, when a number of dimensions of the last feature vector is less than a rank of output matrix, the softmax output is less effective as an approximator of the class conditional probability.
+
+Yang et al. propose mixture of softmaxes:
+
+
+
+
 
 
