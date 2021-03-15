@@ -145,7 +145,7 @@ Kamai et al's properties:
  ```R
  plot(xs, log(softplus(xs)), type='l', col='red')
  ```
- * Numerically stable? **BREAK HERE**: **d log y<sub>i</sub> / d a<sub>j</sub>** = ???
+ * Numerically stable? **Tired! BREAK HERE**: **d log y<sub>i</sub> / d a<sub>j</sub>** = ???
  * Non-negative: sp(a) >= 0.
  * Monotonically increasing: a<sub>1</sub> <= a<sub>2</sub> implies  _log(g(a<sub>1</sub>)) <= log(g(a<sub>2</sub>))_
 
