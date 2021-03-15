@@ -141,8 +141,11 @@ plot(xs, softplus(xs), type='l')
 ```
 
 Kamai et al's properties:
- * Nonlinearity of _log(g(a))_: _ _log(log(1 + exp(a)))_ ??? **BREAK HERE!!!**
- * 
+ * Nonlinearity of _log(g(a))_: _ _log(log(1 + exp(a)))_ 
+ ```R
+ plot(xs, log(softplus(xs)), type='l', col='red')
+ ```
+ * Numerically stable? **BREAK HERE**: **d log y<sub>i</sub> / d a<sub>j</sub>** = ???
  * Non-negative: sp(a) >= 0.
  * Monotonically increasing: a<sub>1</sub> <= a<sub>2</sub> implies  _log(g(a<sub>1</sub>)) <= log(g(a<sub>2</sub>))_
 
