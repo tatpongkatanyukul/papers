@@ -134,6 +134,12 @@ Softplusmax:
 
 ![[f(z)]_i=\frac{sp(z_i)}{\sum_{m=1}^Msp(z_m)}](https://latex.codecogs.com/svg.latex?[f(z)]_i=\frac{sp(z_i)}{\sum_{m=1}^Msp(z_m)})
 
+```R
+xs = seq(-10, 10, 0.001)
+softplus = function(x){log(1 + exp(x))}
+plot(xs, softplus(xs), type='l')
+```
+
 Kamai et al's properties:
  * Nonlinearity of _log(g(a))_: _ _log(log(1 + exp(a)))_ ??? **BREAK HERE!!!**
  * 
