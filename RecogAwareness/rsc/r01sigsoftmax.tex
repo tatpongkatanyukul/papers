@@ -1,0 +1,208 @@
+%%%%%%%%%%%%%%%%%%%%%%% file template.tex %%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% This is a general template file for the LaTeX package SVJour3
+% for Springer journals.          Springer Heidelberg 2010/09/16
+%
+% Copy it to a new file with a new name and use it as the basis
+% for your article. Delete % signs as needed.
+%
+% This template includes a few options for different layouts and
+% content for various journals. Please consult a previous issue of
+% your journal as needed.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% First comes an example EPS file -- just ignore it and
+% proceed on the \documentclass line
+% your LaTeX will extract the file if required
+\begin{filecontents*}{example.eps}
+%!PS-Adobe-3.0 EPSF-3.0
+%%BoundingBox: 19 19 221 221
+%%CreationDate: Mon Sep 29 1997
+%%Creator: programmed by hand (JK)
+%%EndComments
+gsave
+newpath
+  20 20 moveto
+  20 220 lineto
+  220 220 lineto
+  220 20 lineto
+closepath
+2 setlinewidth
+gsave
+  .4 setgray fill
+grestore
+stroke
+grestore
+\end{filecontents*}
+%
+\RequirePackage{fix-cm}
+%
+%\documentclass{svjour3}                     % onecolumn (standard format)
+%\documentclass[smallcondensed]{svjour3}     % onecolumn (ditto)
+\documentclass[smallextended]{svjour3}       % onecolumn (second format)
+%\documentclass[twocolumn]{svjour3}          % twocolumn
+%
+\smartqed  % flush right qed marks, e.g. at end of proof
+%
+\usepackage{graphicx}
+%
+% \usepackage{mathptmx}      % use Times fonts if available on your TeX system
+%
+% insert here the call for the packages your document requires
+%\usepackage{latexsym}
+% etc.
+%
+% please place your own definitions here and don't use \def but
+% \newcommand{}{}
+%
+% Insert the name of "your journal" with
+% \journalname{myjournal}
+%
+\begin{document}
+
+\title{Sigsoftmax%\thanks{Grants or other notes
+%about the article that should go on the front page should be
+%placed here. General acknowledgments should be placed at the end of the article.}
+}
+\subtitle{Kanai et al's Sigsoftmax properties}
+
+%\titlerunning{Short form of title}        % if too long for running head
+
+\author{TK}
+
+%\authorrunning{Short form of author list} % if too long for running head
+
+\maketitle
+
+\begin{abstract}
+Sigsoftmax properties
+\keywords{softmax \and softmax bottleneck \and sigsoftmax}
+% \PACS{PACS code1 \and PACS code2 \and more}
+% \subclass{MSC code1 \and MSC code2 \and more}
+\end{abstract}
+
+\section{Introduction}
+\label{intro}
+
+Kamai et al, NIPS 2018: ``Sigsoftmax: Reanalysis of the Softmax Bottleneck''
+
+It is different than having a set of multiple binary outputs and then normalizing them with softmax, as follows.
+
+Sigsoftmax:
+\begin{equation}
+y_i = \frac{\exp(a_i) \sigma(a_i)}{\sum_{j=1}^K \exp(a_j) \sigma(a_j)}
+\label{eq: sigsoftmax}
+\end{equation}
+
+Binary with softmax:
+\begin{equation}
+y_i = \frac{\exp(\sigma(a_i))}{\sum_{j=1}^K \exp(\sigma(a_j)) }
+\label{eq: binary with softmax}
+\end{equation}
+
+\section{Desired properties}
+\label{sec:1}
+
+
+``As the alternative function to softmax, a new output function $f(z)$ and its $g(z)$ should have all of the following properties ...''
+
+\paragraph{Theorem 5.} Sigsoftmax has the following properties:
+
+1. Nonlinearity of $\log(g(a))$: $\log(g(a)) = 2 a - \log(1 + \exp(a))$.
+
+2. Numerically stable:
+\begin{eqnarray}
+\frac{\partial \log y_i}{\partial a_j}
+= \left\{
+\begin{array}{ll}
+(1 - y_j) \cdot (2 - \sigma(a_j)) &\quad i = j, \\
+-y_j \cdot (2 - \sigma(a_j)) &\quad i \neq j.
+\end{array}
+\right.
+\end{eqnarray}
+
+3. Non-negative: $g(a_i) = \exp(a_i) \sigma(a_i) \geq 0$.
+
+4. Monotonically increasing: $a_1 \leq a_2 \Rightarrow \exp(a_1)\sigma(a_1) \leq \exp(a_2)\sigma(a_2)$.
+
+\paragraph{What we have.}
+(1.) Kamai et al's sigsoftmax: 
+
+\begin{equation}
+g(a) = \exp(a) \cdot \sigma(a) = \frac{\exp(a)}{1 + \exp(-a)} = \frac{\exp(2 a)}{\exp(a) + 1}
+\end{equation}
+
+(2.) Sigmoid:
+
+\begin{equation}
+\sigma(a) = \frac{1}{1 + \exp(-a)} = \frac{\exp(a)}{\exp(a)+1}
+\end{equation}
+
+(3.) Property 1: 
+
+\begin{equation}
+\log(g(a)) = 2 a - \log(1+\exp(a))
+\label{eq: property 1}
+\end{equation}
+
+(4.) Normalization:
+
+\begin{equation}
+y_i = \frac{g(a_i)}{\sum_k g(a_k)}
+\end{equation}
+
+(5.) Analyse partial derivative of log output:
+
+\begin{eqnarray}
+\frac{\partial \log(y_i)}{\partial z_j}
+&=& \frac{\partial \log(g(z_i))}{\partial z_j} - \frac{\partial \log(\sum_k g(z_k))}{\partial z_j}
+\nonumber \\
+&=& \frac{1}{g(z_i)} \frac{\partial g(z_i)}{\partial z_j} - \frac{1}{\sum_k g(z_k)} \frac{\partial g(z_j)}{\partial z_j}
+\nonumber \\
+&=& \left\{
+\begin{array}{ll}
+- \frac{1}{\sum_k g(z_k)} \frac{\partial g(z_j)}{\partial z_j}
+ & \quad, j \neq i, \\
+\left(\frac{1}{g(z_j)}  - \frac{1}{\sum_k g(z_k)}\right) \frac{\partial g(z_j)}{\partial z_j}
+ & \quad, j = i.
+\end{array}
+\right. 
+\nonumber \\
+&=& \left\{
+\begin{array}{ll}
+- \frac{g(z_j)}{\sum_k g(z_k)} \frac{1}{g(z_j)} \frac{\partial g(z_j)}{\partial z_j}
+ & \quad, j \neq i, \\
+\left(\frac{g(z_j)}{g(z_j)}  - \frac{g(z_j)}{\sum_k g(z_k)}\right) \frac{1}{g(z_j)} \frac{\partial g(z_j)}{\partial z_j}
+ & \quad, j = i.
+\end{array}
+\right. 
+\nonumber \\
+&=& \left\{
+\begin{array}{ll}
+-y_j \cdot \frac{\partial \log(g(z_j))}{\partial z_j}
+ & \quad, j \neq i, \\
+(1-y_j) \cdot \frac{\partial \log(g(z_j))}{\partial z_j}
+ & \quad, j = i 
+\end{array}
+\right. 
+\end{eqnarray} 
+
+From property 1 (Equation~\ref{eq: property 1})
+and $\frac{d \log(1 + \exp(a))}{d a} = \frac{\exp(a)}{1 + \exp(a)} = \sigma(a)$, we get:
+
+\begin{equation}
+\frac{\partial \log(y_i)}{\partial z_j}
+= \left\{
+\begin{array}{ll}
+-y_j \cdot (2 - \sigma(a_j))
+ & \quad, j \neq i, \\
+(1-y_j) \cdot (2 - \sigma(a_j))
+ & \quad, j = i 
+\end{array}
+\right. 
+\end{equation}
+
+\end{document}
+% end of file template.tex
+
