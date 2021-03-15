@@ -135,7 +135,7 @@ Softplusmax:
 ![[f(z)]_i=\frac{sp(z_i)}{\sum_{m=1}^Msp(z_m)}](https://latex.codecogs.com/svg.latex?[f(z)]_i=\frac{sp(z_i)}{\sum_{m=1}^Msp(z_m)})
 
 Kamai et al's properties:
- * Nonlinearity of _log(g(a))_: _
+ * Nonlinearity of _log(g(a))_: _ _log(log(1 + exp(a)))_ ??? **BREAK HERE!!!**
  * 
  * Non-negative: sp(a) >= 0.
  * Monotonically increasing: a<sub>1</sub> <= a<sub>2</sub> implies  _log(g(a<sub>1</sub>)) <= log(g(a<sub>2</sub>))_
