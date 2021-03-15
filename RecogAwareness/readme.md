@@ -122,7 +122,7 @@ Kamai et al propose sigsoftmax:
 > "_[log(y(x))]_ should be nonlinear."
 
 
-U+2618 **Idea!**
+### Idea!
 
 Instead of sigsoftmax, use softplusmax
 
