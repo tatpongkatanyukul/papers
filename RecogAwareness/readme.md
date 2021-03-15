@@ -111,10 +111,11 @@ Kamai et al discuss desirable properties of the classification output function
 
 > In training of deep learning, we need to calculate the gradient for optimization. The derivative of logarithm of [f(z)]<sub>i</sub> with respect to _z<sub>j</sub>_ is
 
-![eq](https://latex.codecogs.com/svg.latex?\frac{d\log([f(z)]_i)}{dz_j}=\frac{1}{[f(z)]_i}\frac{d[f(z)]_i}{dz_j})
+![\frac{d\log([y(z)]_i)}{dz_j}=\frac{1}{[y(z)]_i}\frac{d[y(z)]_i}{dz_j}](https://latex.codecogs.com/svg.latex?\frac{d\log([y(z)]_i)}{dz_j}=\frac{1}{[y(z)]_i}\frac{d[y(z)]_i}{dz_j})
 
   * Nonlinearity of log(y(x))
 
+> "_[log(y(x))]_ should be nonlinear."
 
 
 ## Yolov3 
