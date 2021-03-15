@@ -121,6 +121,7 @@ Kamai et al propose sigsoftmax:
 
 > "_[log(y(x))]_ should be nonlinear."
 
+[Detail analysis of property 2](https://github.com/tatpongkatanyukul/papers/blob/main/RecogAwareness/rsc/r01sigsoftmax.pdf)
 
 ### Idea!
 
