@@ -108,8 +108,15 @@ Kamai et al discuss desirable properties of the classification output function
   * Non-negative
   * Monotonically increasing
   * Numerically stable
+
+> In training of deep learning, we need to calculate the gradient for optimization. The derivative of logarithm of [f(z)]<sub>i</sub> with respect to _z<sub>j</sub>_ is
+
+> ![eq](https://latex.codecogs.com/svg.latex?\frac{\partial\log([f(z)]_i)}{\partialz_j})
+
+
   * Nonlinearity of log(y(x))
-<BREAK HERE>
+
+
 
 ## Yolov3 
 
