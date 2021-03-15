@@ -115,6 +115,12 @@ Kamai et al discuss desirable properties of the classification output function
 
   * Nonlinearity of log(y(x))
 
+Kamai et al propose sigsoftmax:
+
+![[f(z)]_i=\frac{\exp(z_i)\sigma(z_i)}{\sum_{m=1}^M\exp(z_m)\sigma(z_m)}](https://latex.codecogs.com/svg.latex?[f(z)]_i=\frac{\exp(z_i)\sigma(z_i)}{\sum_{m=1}^M\exp(z_m)\sigma(z_m)})
+
+
+
 > "_[log(y(x))]_ should be nonlinear."
 
 
