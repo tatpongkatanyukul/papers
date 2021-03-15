@@ -119,9 +119,21 @@ Kamai et al propose sigsoftmax:
 
 ![[f(z)]_i=\frac{\exp(z_i)\sigma(z_i)}{\sum_{m=1}^M\exp(z_m)\sigma(z_m)}](https://latex.codecogs.com/svg.latex?[f(z)]_i=\frac{\exp(z_i)\sigma(z_i)}{\sum_{m=1}^M\exp(z_m)\sigma(z_m)})
 
-
-
 > "_[log(y(x))]_ should be nonlinear."
+
+
+U+2618 **Idea!**
+
+Instead of sigsoftmax, use softplusmax
+
+Softplus: ***sp(a) = log(1 + exp(a))***
+
+
+Softplusmax:
+
+![[f(z)]_i=\frac{sp(z_i)}{\sum_{m=1}^Msp(z_m)}](https://latex.codecogs.com/svg.latex?[f(z)]_i=\frac{sp(z_i)}{\sum_{m=1}^Msp(z_m)})
+
+
 
 
 ## Yolov3 
