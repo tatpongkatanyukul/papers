@@ -159,6 +159,12 @@ I don't quite get the key contribution of the paper. It may be:
 > We describe ***a way of learning a large set of binary style features from training data that are only labeled with the class.***
 > Our "gated softmax" model allows the 2<sup>K</sup> possible combinations of the K learned style features to be integrated out.
 
+> We introduce a vector ***h*** of _binary latent variables (h<sub>1</sub>, ..., h<sub>K</sub>)_ and replace the linear score with a bilinear score of ***x*** and ***h***:
+ 
+> s<sub>y</sub>(***x***, ***h***) = ***h***<sup>T</sup> W<sub>y</sub> ***x***.
+
+
+
 ### IDEA!!! (Big / Big Goal leads to Significant Findings!)
 
 How can we utilize multi-aspect labels in ML? 
