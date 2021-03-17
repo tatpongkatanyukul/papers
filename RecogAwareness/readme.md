@@ -182,6 +182,13 @@ w<sub>yik</sub> = Σ<sub>f=1</sub><sup>F</sup> w<sub>if</sub><sup>x</sup> w<sub>
 
 [CODE](http://www.cs.toronto.edu/~rfm/gatedsoftmax/index.html)
 
+> Say, you trained K class-specific Restricted Boltzmann Machines and you would like to combine the K RBMs for classification. Unlike with, say, mixtures of Gaussians, you cannot simply use Bayes' rule, because each RBM will have a different partition function.
+
+> As it turns, however, there is in fact a principled way to combine the RBMS for classification:
+
+> Just think of the set of K class-specific RBMs as a single conditional distribution p(inputs, hiddens|class). Now compute p(class|inputs), integrating over the hiddens. The partition functions cancel and you can compute both the probability and the derivatives with respect to all the RBMs parameters in polynomial time. This is the "gated softmax classifier"
+
+
 ### IDEA!!! (Big / Big Goal leads to Significant Findings!)
 
 How can we utilize multi-aspect labels in ML? 
