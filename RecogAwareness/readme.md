@@ -163,7 +163,7 @@ I don't quite get the key contribution of the paper. It may be:
  
 > s<sub>y</sub>(***x***, ***h***) = ***h***<sup>T</sup> W<sub>y</sub> ***x***.
 
-
+> p(y, ***h***|***x***) = exp(***h***<sup>T</sup> W<sub>y</sub> ***x***)/ Σ<sub>y' ***h'***</sub> exp(***h***<sup>T</sup> W<sub>y</sub> ***x***)
 
 ### IDEA!!! (Big / Big Goal leads to Significant Findings!)
 
