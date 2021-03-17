@@ -156,6 +156,8 @@ I don't quite get the key contribution of the paper. It may be:
 
 > If each training image was labeled with both the class and the values of a set binary style features, it would make sense to use the image features to create a bipartite conditional random field (CRF) which gave low energy to combinations of a class label and a style feature that were compatible with the image feature.
 > This would force the in which local features were interpreted to be globally consistent about style features such as stroke thickness or "italicness". But what if the values of the style features are missing from the training data?
+> We describe ***a way of learning a large set of binary style features from training data that are only labeled with the class.***
+> Our "gated softmax" model allows the 2<sup>K</sup> possible combinations of the K learned style features to be integrated out.
 
 ### IDEA!!! (Big / Big Goal leads to Significant Findings!)
 
