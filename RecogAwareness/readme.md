@@ -154,6 +154,9 @@ Kamai et al's properties:
 I don't quite get the key contribution of the paper. It may be:
 > ... allows the model encode ***invariances*** inherent in a task by learning a dictionary of ***invariant basis functions***.
 
+> If each training image was labeled with both the class and the values of a set binary style features, it would make sense to use the image features to create a bipartite condition random field (CRF) which gave low energy to combinations of a class label and a style feature that were compatible with the image feature.
+
+
 ### IDEA!!! (Big / Big Goal leads to Significant Findings!)
 
 How can we utilize multi-aspect labels in ML? 
