@@ -165,6 +165,10 @@ I don't quite get the key contribution of the paper. It may be:
 
 > p(y, ***h***|***x***) = exp(***h***<sup>T</sup> W<sub>y</sub> ***x***)/ Σ<sub>y' ***h'***</sub> exp(***h***<sup>T</sup> W<sub>y</sub> ***x***)
 
+Output y can be perceived as a class, while ***h*** is perceived as a style (or a kind of a latent characteristic).
+
+
+
 ### IDEA!!! (Big / Big Goal leads to Significant Findings!)
 
 How can we utilize multi-aspect labels in ML? 
