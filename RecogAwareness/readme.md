@@ -167,6 +167,8 @@ I don't quite get the key contribution of the paper. It may be:
 
 Output y can be perceived as a class, while ***h*** is perceived as a style (or a kind of a latent characteristic).
 
+Variable _W<sub>y</sub>_ of size K x D is a weight set for class _y_, where K is a number of latent dimentions (kinda # of style dimensions)
+and D is a number of input dimentions: ***x*** = [x<sub>1</sub>, ..., x<sub>D</sub>].
 
 
 ### IDEA!!! (Big / Big Goal leads to Significant Findings!)
