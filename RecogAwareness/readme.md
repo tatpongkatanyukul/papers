@@ -169,6 +169,9 @@ Output y can be perceived as a class, while ***h*** is perceived as a style (or 
 
 Variable _W<sub>y</sub>_ of size K x D is a weight set for class _y_, where K is a number of latent dimentions (kinda # of style dimensions)
 and D is a number of input dimentions: ***x*** = [x<sub>1</sub>, ..., x<sub>D</sub>].
+The matrix _W<sub>y</sub>_ = [_w<sub>yik</sub>_].
+
+> p(y|***x***) = Σ<sub>***h***</sub> p(y, ***h***|***x***) = p(y, ***h***=[0,0,...,0,0]<sup>T</sup>|***x***) + p(y, ***h***=[0,0,...,0,1]<sup>T</sup>|***x***) + ... + p(y, ***h***=[1,1,...,1,1]<sup>T</sup>|***x***)
 
 
 ### IDEA!!! (Big / Big Goal leads to Significant Findings!)
