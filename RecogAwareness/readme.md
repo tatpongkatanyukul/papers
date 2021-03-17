@@ -177,7 +177,12 @@ The matrix _W<sub>y</sub>_ = [_w<sub>yik</sub>_].
 
 w<sub>yik</sub> = Σ<sub>f=1</sub><sup>F</sup> w<sub>if</sub><sup>x</sup> w<sub>yf</sub><sup>y</sup> w<sub>kf</sub><sup>h</sup>
 
-> The model parameters are now given by three matrices W<sup>x</sup>, W<sup>y</sup>, W<sup>h</sup> ...
+> The model parameters are now given by three matrices W<sup>x</sup>, W<sup>y</sup>, W<sup>h</sup>, and each component _W<sub>yik</sub>_ of _W_ is defined as a ***three-way inner product*** of column vectors taken from these matrices.
+> This factorization of a ***three-way parameter tensor*** was previously used by [3: Memisevic Hinton's Learning to represent spatial transformations with factored higher-order Boltzmann machines. Neural Computation 2010] to reduce the number of parameters in an unsupervised model of images.
+
+> Our model gets its power from the fact that inputs, hidden variables and labels interact in ***three-way cliques***. ***Factored three-way interactions*** make it possible to learn task-specific features and to learn ***transformational invariances*** inherent in the task at hand.
+
+> ... Encourage the hidden unit activities to be sparse (e.g. using approach in [20: Lee et al's Sparse deep belief net model for visual area V2 NIPS 2008]) and/or traing the model semi-supervised are further directions for further research.
 
 
 [CODE](http://www.cs.toronto.edu/~rfm/gatedsoftmax/index.html)
