@@ -182,7 +182,7 @@ w<sub>yik</sub> = Σ<sub>f=1</sub><sup>F</sup> w<sub>if</sub><sup>x</sup> w<sub>
 
 > Our model gets its power from the fact that inputs, hidden variables and labels interact in ***three-way cliques***. ***Factored three-way interactions*** make it possible to learn task-specific features and to learn ***transformational invariances*** inherent in the task at hand.
 
-> ... Encourage the hidden unit activities to be sparse (e.g. using approach in [20: Lee et al's Sparse deep belief net model for visual area V2 NIPS 2008]) and/or traing the model semi-supervised are further directions for further research.
+> ... Encourage the hidden unit activities to be sparse (e.g. using approach in [20: Lee et al's Sparse deep belief net model for visual area V2 NIPS 2007](https://papers.nips.cc/paper/2007/hash/4daa3db355ef2b0e64b472968cb70f0d-Abstract.html)) and/or traing the model semi-supervised are further directions for further research.
 
 
 [CODE](http://www.cs.toronto.edu/~rfm/gatedsoftmax/index.html)
