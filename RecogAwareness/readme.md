@@ -173,6 +173,12 @@ The matrix _W<sub>y</sub>_ = [_w<sub>yik</sub>_].
 
 > p(y|***x***) = Σ<sub>***h***</sub> p(y, ***h***|***x***) = p(y, ***h***=[0,0,...,0,0]<sup>T</sup>|***x***) + p(y, ***h***=[0,0,...,0,1]<sup>T</sup>|***x***) + ... + p(y, ***h***=[1,1,...,1,1]<sup>T</sup>|***x***)
 
+> In order to obtain class-invariant features, we factorize the parameter tensor _W_ as follows:
+
+w<sub>yik</sub> = Σ<sub>f=1</sub><sup>F</sup> w<sub>if</sub><sup>x</sup> w<sub>yf</sub><sup>y</sup> w<sub>kf</sub><sup>h</sup>
+
+> The model parameters are now given by three matrices W<sup>x</sup>, W<sup>y</sup>, W<sup>h</sup> ...
+
 
 ### IDEA!!! (Big / Big Goal leads to Significant Findings!)
 
