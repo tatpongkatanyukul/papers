@@ -180,6 +180,8 @@ w<sub>yik</sub> = Σ<sub>f=1</sub><sup>F</sup> w<sub>if</sub><sup>x</sup> w<sub>
 > The model parameters are now given by three matrices W<sup>x</sup>, W<sup>y</sup>, W<sup>h</sup> ...
 
 
+[CODE](http://www.cs.toronto.edu/~rfm/gatedsoftmax/index.html)
+
 ### IDEA!!! (Big / Big Goal leads to Significant Findings!)
 
 How can we utilize multi-aspect labels in ML? 
