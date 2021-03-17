@@ -151,6 +151,9 @@ Kamai et al's properties:
 
 ## Memisevic et al's Gated Softmax Classification. NIPS 2010
 
+I don't quite get the key contribution of the paper. It may be:
+> ... allows the model encode ***invariances*** inherent in a task by learning a dictionary of ***invariant basis functions***.
+
 ### IDEA!!! (Big / Big Goal leads to Significant Findings!)
 
 How can we utilize multi-aspect labels in ML? 
