@@ -149,6 +149,21 @@ Kamai et al's properties:
  * Non-negative: sp(a) >= 0.
  * Monotonically increasing: a<sub>1</sub> <= a<sub>2</sub> implies  _log(g(a<sub>1</sub>)) <= log(g(a<sub>2</sub>))_
 
+## Memisevic et al's Gated Softmax Classification. NIPS 2010
+
+### IDEA!!! (Big / Big Goal leads to Significant Findings!)
+
+How can we utilize multi-aspect labels in ML? 
+It may be unsupervised/semi-supervised/transfer learning. But, how to effectively/systematically do it.
+It's a big goal. We need a big goal for a potentially big finding.
+
+A data can have multiple aspects, e.g., classes and styles.
+Some training samples may have class labels, but not style labels.
+Some may have style labels without class labels.
+Some may have both. Some may have none.
+
+It is rather classic endeavor that how we can utilize all of these.
+
 
 ## Yolov3 
 
