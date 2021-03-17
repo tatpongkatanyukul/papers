@@ -164,6 +164,9 @@ Some may have both. Some may have none.
 
 It is rather classic endeavor that how we can utilize all of these.
 
+This can be beneficial to the coming engineering/medicine collaborative projects, as well.
+Faculty of Medicine has larget sets of data, but not labels.
+
 
 ## Yolov3 
 
