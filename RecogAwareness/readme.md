@@ -227,7 +227,7 @@ Faculty of Medicine has larget sets of data, but not labels.
 
 > "For features to represent the samples, almost all existing deep open-set classifiers rely on those acquired via fully supervised learning, as shown in Fig. 1 (a). However, they are for emphasizing **the discriminative features of known classes; they are not necessarily useful for representing unknowns or separating unknowns from knowns.**"
 
-[YoshihashiEtAl Fig. 1](https://github.com/tatpongkatanyukul/papers/raw/main/RecogAwareness/rsc/YoshihashiFig1.png)
+![YoshihashiEtAl Fig. 1](https://github.com/tatpongkatanyukul/papers/raw/main/RecogAwareness/rsc/YoshihashiFig1.png)
 
 > "Regarding the representations of outliers that we cannot assume beforehand, it is natural to **add unsupervised learning as a regularizer so that the learned representaions acquire information that are important in general but may not be useful for classifying given classes.**"
 
