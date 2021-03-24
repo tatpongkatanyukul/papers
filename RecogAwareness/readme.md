@@ -220,6 +220,8 @@ Faculty of Medicine has larget sets of data, but not labels.
 
 > "Open-set classification is a problem of handling 'unknown' classes that are not contained in the training dataset, whereas traditional clasifiers assume that only known clases appear in the test environment."
 
+> "Existing open-set classifiers rely on **deep networks trained in a supervised manner on known classes in the training set; this causes specialization of learned representations to known classes and makes it hard** to distinguish unknowns from knowns."
+> "In contrast, we train networks for joint classification and reconstruction of input data. This enhances the learned representation so as to **preserve information** useful for separating unknowns from knowns."
 
 
 ## Yolov3 
