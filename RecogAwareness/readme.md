@@ -231,6 +231,15 @@ Faculty of Medicine has larget sets of data, but not labels.
 
 > "Regarding the representations of outliers that we cannot assume beforehand, it is natural to **add unsupervised learning as a regularizer so that the learned representaions acquire information that are important in general but may not be useful for classifying given classes.**"
 
+> "Reconstruction of input samples from low-dimensional latent representations inside the networks is a general way of unsupervised learning. The representation learned via reconstruction are useful in several tasks [Zhang et al ICML 2016].
+
+> "While the known-class classifier exploits supervisedly learned prediction y, the unknown detector uses a reconstructive latent representation z together with y. This allows unknown detectors to exploit a wider pool of featuresthat may not be discriminative for known classes. Additionally, **in higher-level layers of supervised deep nets, details of input tend to be lost, which may not be preferable in unknown detection**.
+> ... the key idea in DHRNets i the bottlenecked lateral connections, which is useful to learn rich representations for classification and compact representations for detection of unknowns jointly.
+
+### IDEA !
+
+Learn latent representation with high dimension, but enforcing sparsity
+
 ## Yolov3 
 
 use multiple binary outputs, allowing multi-aspect or hierarchical classification
