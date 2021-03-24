@@ -210,6 +210,9 @@ It is rather classic endeavor that how we can utilize all of these.
 This can be beneficial to the coming engineering/medicine collaborative projects, as well.
 Faculty of Medicine has larget sets of data, but not labels.
 
+## Neal et al's Open Set Learning with Counterfactual Images ECCV 2018
+
+> "Our approach, based on generative adversarial neworks, generates examples that are close to training set examples yet do not belong to any training category. ... **reformulate open set recognition as classification with one additional class**"
 
 ## Yolov3 
 
