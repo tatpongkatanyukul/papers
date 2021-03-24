@@ -223,6 +223,7 @@ Faculty of Medicine has larget sets of data, but not labels.
 > "Existing open-set classifiers rely on **deep networks trained in a supervised manner on known classes in the training set; this causes specialization of learned representations to known classes and makes it hard** to distinguish unknowns from knowns."
 > "In contrast, we train networks for joint classification and reconstruction of input data. This enhances the learned representation so as to **preserve information** useful for separating unknowns from knowns."
 
+> "To be deployable to real applications, recognition systems need to be tolerant of unknown things and events that were not anticipated during the training phase. However, most of the existing learning methods are based on the closed-world assumption, that is, the training datasets are assumed to include all classes that appear in the environments where the system will be deployed. This assumption can be easily violated in real-world problems, where covering all possible classes is almost impossible. **Closed-set classifiers are error-prone to samples of unknown classes, and this limits their usability.**"
 
 ## Yolov3 
 
