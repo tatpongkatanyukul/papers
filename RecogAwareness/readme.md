@@ -234,7 +234,9 @@ Faculty of Medicine has larget sets of data, but not labels.
 > "Reconstruction of input samples from low-dimensional latent representations inside the networks is a general way of unsupervised learning. The representation learned via reconstruction are useful in several tasks [Zhang et al ICML 2016].
 
 > "While the known-class classifier exploits supervisedly learned prediction y, the unknown detector uses a reconstructive latent representation z together with y. This allows unknown detectors to exploit a wider pool of featuresthat may not be discriminative for known classes. Additionally, **in higher-level layers of supervised deep nets, details of input tend to be lost, which may not be preferable in unknown detection**.
+
 > ... the key idea in DHRNets i the bottlenecked lateral connections, which is useful to learn rich representations for classification and compact representations for detection of unknowns jointly.
+
 > ... **This bottlenecking is crucial**, because outliers are harder to detect in higher dimensional feature spaces due to _concentration on the sphere_[Zimek et al's A survey on unsupervised outlier detection in high-dimensional numerical data 2012]. Existing autoencoder variants, which are useful for outlier detection by learning compact representation, cannot afford large-scale classification because the bottlenecks in their mainstreams limit the expressive power for classification.
 
 ### IDEA !
