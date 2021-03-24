@@ -225,10 +225,11 @@ Faculty of Medicine has larget sets of data, but not labels.
 
 > "To be deployable to real applications, recognition systems need to be tolerant of unknown things and events that were not anticipated during the training phase. However, most of the existing learning methods are based on the closed-world assumption, that is, the training datasets are assumed to include all classes that appear in the environments where the system will be deployed. This assumption can be easily violated in real-world problems, where covering all possible classes is almost impossible. **Closed-set classifiers are error-prone to samples of unknown classes, and this limits their usability.**"
 
-> "For features to represent the samples, almost all existing deep open-set classifiers rely on those acquired via fully supervised learning, as shown in Fig. 1 (a)."
+> "For features to represent the samples, almost all existing deep open-set classifiers rely on those acquired via fully supervised learning, as shown in Fig. 1 (a). However, they are for emphasizing **the discriminative features of known classes; they are not necessarily useful for representing unknowns or separating unknowns from knowns.**"
 
-[YoshihashiEtAl Fig. 1]()
+[YoshihashiEtAl Fig. 1](https://github.com/tatpongkatanyukul/papers/raw/main/RecogAwareness/rsc/YoshihashiFig1.png)
 
+> "Regarding the representations of outliers that we cannot assume beforehand, it is natural to **add unsupervised learning as a regularizer so that the learned representaions acquire information that are important in general but may not be useful for classifying given classes.**"
 
 ## Yolov3 
 
