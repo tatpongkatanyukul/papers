@@ -225,6 +225,11 @@ Faculty of Medicine has larget sets of data, but not labels.
 
 > "To be deployable to real applications, recognition systems need to be tolerant of unknown things and events that were not anticipated during the training phase. However, most of the existing learning methods are based on the closed-world assumption, that is, the training datasets are assumed to include all classes that appear in the environments where the system will be deployed. This assumption can be easily violated in real-world problems, where covering all possible classes is almost impossible. **Closed-set classifiers are error-prone to samples of unknown classes, and this limits their usability.**"
 
+> "For features to represent the samples, almost all existing deep open-set classifiers rely on those acquired via fully supervised learning, as shown in Fig. 1 (a)."
+
+[YoshihashiEtAl Fig. 1]()
+
+
 ## Yolov3 
 
 use multiple binary outputs, allowing multi-aspect or hierarchical classification
