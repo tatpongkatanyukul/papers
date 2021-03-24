@@ -216,6 +216,12 @@ Faculty of Medicine has larget sets of data, but not labels.
 
 > "Fig. 1. ... Given known examples we generate counterfactual examplesfor the unknown class. The decision boundary between known and counterfactual unknown examples extends to unknown examples, similar to the idea that one can train an SVM with only support vectors.
 
+## Yoshihashi et al's Classification-Reconstruction Learning for Open-Set Recognition CVPR 2019
+
+> "Open-set classification is a problem of handling 'unknown' classes that are not contained in the training dataset, whereas traditional clasifiers assume that only known clases appear in the test environment."
+
+
+
 ## Yolov3 
 
 use multiple binary outputs, allowing multi-aspect or hierarchical classification
