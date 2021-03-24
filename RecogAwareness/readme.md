@@ -212,7 +212,9 @@ Faculty of Medicine has larget sets of data, but not labels.
 
 ## Neal et al's Open Set Learning with Counterfactual Images ECCV 2018
 
-> "Our approach, based on generative adversarial neworks, generates examples that are close to training set examples yet do not belong to any training category. ... **reformulate open set recognition as classification with one additional class**"
+> "Our approach, based on generative adversarial neworks, **generates examples that are close to training set examples yet do not belong to any training category.** ... **reformulate open set recognition as classification with one additional class**"
+
+> "Fig. 1. ... Given known examples we generate counterfactual examplesfor the unknown class. The decision boundary between known and counterfactual unknown examples extends to unknown examples, similar to the idea that one can train an SVM with only support vectors.
 
 ## Yolov3 
 
