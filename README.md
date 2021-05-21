@@ -25,6 +25,7 @@ Sean B. Carroll
   * [Liu et al. Dynamic Sparse Training: Find Efficient Sparse Network From Scratch With Trainable Masked Layers, ICLR 2020](https://iclr.cc/virtual_2020/poster_SJlbGJrtDB.html)
 * Hierarchy - structural representation
   * [Kipf et al. Contrastive Learning of Structured World Models, ICLR 2020](https://iclr.cc/virtual_2020/poster_H1gax6VtDB.html) 
+  * [Li et al. PROGRESSIVE LEARNING AND DISENTANGLEMENT OF HIERARCHICAL REPRESENTATIONS, ICLR 2020](https://iclr.cc/virtual_2020/poster_SJxpsxrYPS.html)
 * Multi-aspect representation
   * [Balcan et al. Learning to Link, ICLR 2020](https://iclr.cc/virtual_2020/poster_S1eRbANtDB.html) 
 * Symbolic reasoning
