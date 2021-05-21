@@ -23,5 +23,15 @@ Sean B. Carroll
 * Hierarchy representation
 * Multi-aspect representation
 * Symbolic reasoning
+  * [Chen et al. Neural Symbolic Reader ... Reading Comprehension](https://iclr.cc/virtual_2020/poster_ryxjnREFwH.html) 
 * Commonsense reasoning
 * Natural language understanding
+  * [Zhu et al. FreeLB: ... Natural Language Understanding, ICLR 2020](https://iclr.cc/virtual_2020/poster_BygzbyHFvB.html)
+  * 
+
+
+Interesting (but not for me)
+  * Multi-task learning
+    * [Wu et al., Understanding and Improving Information Transfer in Multi-Task Learning, ICLR 2020](https://iclr.cc/virtual_2020/poster_SylzhkBtDB.html) 
+  * Quantum computing
+    * [Kerenidis et al. Quantum Algorithms for Deep Convolutional Neural Networks, ICLR 2020](https://iclr.cc/virtual_2020/poster_Hygab1rKDS.html) 
