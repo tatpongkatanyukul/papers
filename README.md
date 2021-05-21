@@ -22,5 +22,6 @@ Sean B. Carroll
 * Sparse representation
 * Hierarchy representation
 * Multi-aspect representation
+* Symbolic reasoning
 * Commonsense reasoning
 * Natural language understanding
