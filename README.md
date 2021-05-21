@@ -33,11 +33,13 @@ Sean B. Carroll
   * [Lample and Charton, Deep Learning For Symbolic Mathematics, ICLR 2020](https://iclr.cc/virtual_2020/poster_S1eZYeHFDS.html)
 * Casuality
   * [Bengio et al. A Meta-Transfer Objective for Learning to Disentangle Causal Mechanisms](https://iclr.cc/virtual_2020/poster_ryxWIgBFPS.html)  
+  * [Zhu et al. Causal Discovery with Reinforcement Learning, ICLR 2020](https://iclr.cc/virtual_2020/poster_S1g2skStPB.html)
 * Commonsense reasoning
   * [Bhagavatula et al. Abductive Commonsense Reasoning, ICLR 2020](https://iclr.cc/virtual_2020/poster_Byg1v1HKDB.html) 
 * Natural language understanding
   * [Zhu et al. FreeLB: ... Natural Language Understanding, ICLR 2020](https://iclr.cc/virtual_2020/poster_BygzbyHFvB.html)
   * [Wang et al. StructBERT ... Deep Language Understanding, ICLR 2020](https://iclr.cc/virtual_2020/poster_BJgQ4lSFPH.html)
+  * [Lan et al. ALBERT: A Lite BERT for Self-supervised Learning of Language Representations, ICLR 2020](https://iclr.cc/virtual_2020/poster_H1eA7AEtvS.html)
 * Q&A - Reading compenhension
   * [Back et al. NeurQuRI: ... Machine Reading Comprehension, ICLR 2020](https://iclr.cc/virtual_2020/poster_ryxgsCVYPr.html)
   * [Asai et al. Learning to Retrieve Reasoning Paths over Wikipedia Graph for Question Answering, ICLR 2020](https://iclr.cc/virtual_2020/poster_SJgVHkrYDH.html)
@@ -53,11 +55,15 @@ Interesting (but not for me)
   * Transfer learning
     * [Shafahi et al. Adversarially robust transfer learning, ICRL 2020](https://iclr.cc/virtual_2020/poster_ryebG04YvB.html)  
     * [Domain Adaptive Multibranch Networks, ICLR 2020](https://iclr.cc/virtual_2020/poster_rJxycxHKDS.html)
+    * [Peng et al. Federated Adversarial Domain Adaptation, ICLR 2020](https://iclr.cc/virtual_2020/poster_HJezF3VYPB.html)
     * [Asano et al. Self-labelling via simultaneous clustering and representation learning, ICLR 2020](https://iclr.cc/virtual_2020/poster_Hyx-jyBFPr.html)
+    * [Wang et al. Pay Attention to Features, Transfer Learn Faster CNNs, ICLR 2020](https://iclr.cc/virtual_2020/poster_ryxyCeHtPB.html)
   * Learning to learn
     * [Ruan et al. Learning to Learn by Zeroth-Order Oracle, ICLR 2020](https://iclr.cc/virtual_2020/poster_ryxz8CVYDH.html) 
   * Stored Program agent - Learn to program
     * [Le et al. Neural Stored-program Memory, ICLR 2020](https://iclr.cc/virtual_2020/poster_rkxxA24FDr.html)  
     * [Laich et al. Guiding Program Synthesis by Learning to Generate Examples, ICLR 2020](https://iclr.cc/virtual_2020/poster_BJl07ySKvS.html) 
+  * Episodic memory
+    * [Babino et al. MEMO: A Deep Network for Flexible Combination of Episodic Memories, ICLR 2020](https://iclr.cc/virtual_2020/poster_rJxlc0EtDr.html) 
   * Quantum computing
     * [Kerenidis et al. Quantum Algorithms for Deep Convolutional Neural Networks, ICLR 2020](https://iclr.cc/virtual_2020/poster_Hygab1rKDS.html) 
