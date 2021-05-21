@@ -40,6 +40,7 @@ Sean B. Carroll
   * [Zhu et al. FreeLB: ... Natural Language Understanding, ICLR 2020](https://iclr.cc/virtual_2020/poster_BygzbyHFvB.html)
   * [Wang et al. StructBERT ... Deep Language Understanding, ICLR 2020](https://iclr.cc/virtual_2020/poster_BJgQ4lSFPH.html)
   * [Lan et al. ALBERT: A Lite BERT for Self-supervised Learning of Language Representations, ICLR 2020](https://iclr.cc/virtual_2020/poster_H1eA7AEtvS.html)
+  * [Kong et al. A Mutual Information Maximization Perspective of Language Representation Learning, ICLR 2020](https://iclr.cc/virtual_2020/poster_Syx79eBKwr.html)
 * Q&A - Reading compenhension
   * [Back et al. NeurQuRI: ... Machine Reading Comprehension, ICLR 2020](https://iclr.cc/virtual_2020/poster_ryxgsCVYPr.html)
   * [Asai et al. Learning to Retrieve Reasoning Paths over Wikipedia Graph for Question Answering, ICLR 2020](https://iclr.cc/virtual_2020/poster_SJgVHkrYDH.html)
