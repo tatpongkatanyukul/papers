@@ -70,3 +70,4 @@ Interesting (but not for me)
     * [Babino et al. MEMO: A Deep Network for Flexible Combination of Episodic Memories, ICLR 2020](https://iclr.cc/virtual_2020/poster_rJxlc0EtDr.html) 
   * Quantum computing
     * [Kerenidis et al. Quantum Algorithms for Deep Convolutional Neural Networks, ICLR 2020](https://iclr.cc/virtual_2020/poster_Hygab1rKDS.html) 
+    * [David Matthews, How to get started in quantum computing, Nature, vol 591, 4 Mar 2021]()
