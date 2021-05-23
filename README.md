@@ -45,6 +45,8 @@ Sean B. Carroll
   * [Back et al. NeurQuRI: ... Machine Reading Comprehension, ICLR 2020](https://iclr.cc/virtual_2020/poster_ryxgsCVYPr.html)
   * [Asai et al. Learning to Retrieve Reasoning Paths over Wikipedia Graph for Question Answering, ICLR 2020](https://iclr.cc/virtual_2020/poster_SJgVHkrYDH.html)
   * [Yu et al. ReClor: A Reading Comprehension Dataset Requiring Logical Reasoning, ICLR 2020](https://iclr.cc/virtual_2020/poster_HJgJtT4tvB.html)
+* Inductive learning (given examples, learn rules), deductive learning (given rules, apply them)
+  * ??? classic ???
 
 Interesting (but not for me)
   * Ranking
