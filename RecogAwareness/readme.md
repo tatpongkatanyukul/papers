@@ -151,6 +151,9 @@ Kamai et al's properties:
 
 ## Memisevic et al's Gated Softmax Classification. NIPS 2010
 
+My verdict
+  * I don't understand its mechanism how it works. Especially, how do they get the hidden variable values or how they train their model to get them
+
 I don't quite get the key contribution of the paper. It may be:
 > ... allows the model encode ***invariances*** inherent in a task by learning a dictionary of ***invariant basis functions***.
 
