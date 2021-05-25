@@ -100,6 +100,18 @@ Yang et al. propose mixture of softmaxes:
 
 Parameters _π<sub>m</sub>(x)_ can be learned.
 
+### I found it interesting
+> "... statistical language modeling has gone through significant development from **traditional Ngram models to neural language model** ..."
+> "... **as a density estimation problem**, language modeling mostly relies on a universal auto-regressive factorization of the joint probability and then models each conditional factor using different approaches."
+> "... given a corpus of tokens ```\mathbf{X} = (X_1, ..., X_T)```, the joint probability ```P(\mathbf{X})``` factorizes as ```P(\mathbf{X}) = \prod_t P(X_t|X_{<t}) = \prod_t P(X_t|C_t)```, where ```C_t = X_{<t}``` is referred to as the _context_ of the conditional probability hereafter."
+> 
+> A standard approach is to a recurrent neural network to encode the context"
+
+### Synopsis
+  * 1. logit = penultimate
+
+
+
 ## Kamai et al. NIPS 2018
 
 Kamai et al. propose sigsoftmax as a mitigation to softmax bottleneck issue. They claim and show that gradient calculation of sigsoftmax is numerically stable.
