@@ -101,11 +101,20 @@ Yang et al. propose mixture of softmaxes:
 Parameters _π<sub>m</sub>(x)_ can be learned.
 
 ### I found it interesting
-> "... statistical language modeling has gone through significant development from **traditional Ngram models to neural language model** ..."
-> "... **as a density estimation problem**, language modeling mostly relies on a universal auto-regressive factorization of the joint probability and then models each conditional factor using different approaches."
-> "... given a corpus of tokens ```\mathbf{X} = (X_1, ..., X_T)```, the joint probability ```P(\mathbf{X})``` factorizes as ```P(\mathbf{X}) = \prod_t P(X_t|X_{<t}) = \prod_t P(X_t|C_t)```, where ```C_t = X_{<t}``` is referred to as the _context_ of the conditional probability hereafter."
-> 
-> A standard approach is to a recurrent neural network to encode the context"
+"... statistical language modeling has gone through significant development from **traditional Ngram models to neural language model** ..."
+
+"... **as a density estimation problem**, language modeling mostly relies on a universal auto-regressive factorization of the joint probability and then models each conditional factor using different approaches."
+
+"... given a corpus of tokens ```\mathbf{X} = (X_1, ..., X_T)```, the joint probability ```P(\mathbf{X})``` factorizes as ```P(\mathbf{X}) = \prod_t P(X_t|X_{<t}) = \prod_t P(X_t|C_t)```, where ```C_t = X_{<t}``` is referred to as the _context_ of the conditional probability hereafter."
+
+> "... recurrent neural network (RNN) based language models achieve state-of-the-art results on various benchmarks ... "
+
+> "... A standard approach is to use a recurrent neural network to **encode the context into a fixed sized vector**, which is tehn multiplied by the word embeddings using dot product to obtain the logits. The logits are consumed by **the Softmax function to give a categorical probability distribution over the next token.**"
+
+> "... **an unclear question is whether the combination of dot product and Softmax is capable of modeling the conditional probability, which can vary dramatically with the change of the context.**"
+
+> "... natural language is highly context-dependent, the matrix to be factorized can be high-rank. 
+> This further implies that standard Softmax-based language models with distributed (output) word embedding do not have enough capacity to model natural language. We call this the **Softmax bottleneck**"
 
 ### Synopsis
   * 1. logit = penultimate
