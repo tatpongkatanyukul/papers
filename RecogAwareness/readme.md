@@ -117,10 +117,12 @@ Parameters _π<sub>m</sub>(x)_ can be learned.
 > This further implies that standard Softmax-based language models with distributed (output) word embedding do not have enough capacity to model natural language. We call this the **Softmax bottleneck**"
 
 ### Synopsis
-  * 1. logit = penultimate
-
-
-
+  * 1. logit = argument of the exponential in a softmax (it is penultimate if the softmax is the last layer)
+  * 2. "... when the dimension _d_ is too small, Softmax does not have the capacity to express the true data distribution."
+    * _d_     
+      * next-token probability ```P_\theta(x|c)``` is modeled by Softmax: ```P_\theta(x|c) = \exp h_c^T w_x / \sum_{x'} \exp h_c^T w_x'``` where context vector ```h_c``` is a function of context _c_ and word embedding ```w_x``` is a function of next-token _x_. 
+      * Both ```h_c``` and ```w_x``` are parameterized by ```\theta``` and have the same dimension _d_
+      
 ## Kamai et al. NIPS 2018
 
 Kamai et al. propose sigsoftmax as a mitigation to softmax bottleneck issue. They claim and show that gradient calculation of sigsoftmax is numerically stable.
